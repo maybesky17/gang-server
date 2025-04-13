@@ -1,0 +1,979 @@
+[13Apr2025 10:10:52.943] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[13Apr2025 10:10:52.949] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.6 by Microsoft; OS Linux arch amd64 version 6.8.0-1021-azure
+[13Apr2025 10:10:53.905] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Apr2025 10:10:53.954] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gang-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Apr2025 10:10:54.240] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gang-server/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[13Apr2025 10:10:54.242] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gang-server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[13Apr2025 10:10:54.243] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gang-server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[13Apr2025 10:10:54.244] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gang-server/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[13Apr2025 10:10:54.545] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[13Apr2025 10:10:56.584] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Apr2025 10:10:56.733] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[13Apr2025 10:10:56.735] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[13Apr2025 10:10:56.835] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Apr2025 10:10:56.937] [main/INFO] [Puzzles Lib/]: Loading 49 mods:
+	- alexscaves 2.0.2
+	- alexsmobs 1.22.9
+	- aquamirae 6.API15
+	- bfcrmod 1.0.3
+	- biomesoplenty 19.0.0.96
+	- caelus 3.2.0+1.20.1
+	- cataclysm 2.63
+	- citadel 2.6.1
+	- cloth_config 11.1.136
+	- commonnetworking 1.0.5-1.20.1
+	- curios 5.12.1+1.20.1
+	- endrem 5.3.3-R-1.20.1
+	- ferritecore 6.0.1
+	- forge 47.4.0
+	- geckolib 4.7.1.2
+	- glitchcore 0.0.1.1
+	- gravestone 1.20.1-1.0.23
+	- icarus 2.12.0
+	- iceandfire 2.1.13-1.20.1
+	- jei 15.20.0.106
+	- lionfishapi 2.4-Fix
+	- luckperms 5.4.102
+	- mahoutsukai 1.20.1-v1.34.78
+	- minecraft 1.20.1
+	- mowziesmobs 1.7.1
+	- naturescompass 1.20.1-1.11.2-forge
+	- obscure_api 15
+	- presencefootsteps 1.20.1-1.9.1-beta.1
+	- puzzleslib 8.1.32
+		|-- mixinextras 0.4.1
+		\-- puzzlesaccessapi 20.1.1
+	- resourcefulconfig 2.1.3
+	- sodiumdynamiclights 1.0.9
+		\-- fabric_api_base 0.4.31+ef105b4977
+	- sophisticatedbackpacks 3.23.8.1215
+	- sophisticatedcore 1.2.35.929
+	- sound_physics_remastered 1.20.1-1.4.13
+	- spartanfire 2.1.0
+	- spartanshields 3.1.1
+	- spartantoolkit 1.20.1-1.5.2
+	- spartanweaponry 3.1.3
+	- tacz 1.1.4-hotfix
+	- terrablender 3.0.1.10
+	- travelerstitles 1.20-Forge-4.0.2
+	- unearthed_journey 2.0.1
+	- valhelsia_core 1.1.2
+	- valhelsia_structures 1.20.1-1.1.2
+	- xaerominimap 25.2.0
+	- yungsapi 1.20-Forge-4.0.6
+[13Apr2025 10:10:56.943] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Apr2025 10:10:58.235] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13Apr2025 10:11:03.408] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[13Apr2025 10:11:04.028] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@61191222 on thread Thread[#32,modloading-worker-0,5,main]
+[13Apr2025 10:11:04.029] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2394) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2505) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:361) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:286) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:221) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23168!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23168!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23168!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23168!/:com.obscuria]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.4.0.jar%23191!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.4.0.jar%23190!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[13Apr2025 10:11:04.033] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[13Apr2025 10:11:04.577] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[13Apr2025 10:11:04.578] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[13Apr2025 10:11:05.150] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[13Apr2025 10:11:05.531] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[13Apr2025 10:11:05.532] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
+[13Apr2025 10:11:05.533] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
+[13Apr2025 10:11:05.575] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[13Apr2025 10:11:08.237] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[13Apr2025 10:11:08.423] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[13Apr2025 10:11:08.729] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[13Apr2025 10:11:08.764] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[13Apr2025 10:11:08.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[13Apr2025 10:11:09.380] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.0.jar%23190!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.0.jar%23190!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[13Apr2025 10:11:09.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[13Apr2025 10:11:09.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[13Apr2025 10:11:09.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[13Apr2025 10:11:09.475] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[13Apr2025 10:11:09.475] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[13Apr2025 10:11:09.475] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[13Apr2025 10:11:09.475] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[13Apr2025 10:11:09.475] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[13Apr2025 10:11:09.475] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[13Apr2025 10:11:09.475] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[13Apr2025 10:11:09.475] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[13Apr2025 10:11:09.513] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[13Apr2025 10:11:09.513] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[13Apr2025 10:11:09.514] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[13Apr2025 10:11:09.514] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[13Apr2025 10:11:09.514] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[13Apr2025 10:11:09.514] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[13Apr2025 10:11:09.514] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[13Apr2025 10:11:09.515] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.13 Target: null
+[13Apr2025 10:11:09.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Apr2025 10:11:09.591] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13Apr2025 10:11:09.593] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[13Apr2025 10:11:09.617] [modloading-worker-0/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Mod loaded up and ready to go! (c) Jeremiah Lowe, Disa Kandria 2022 - 2024!
+[13Apr2025 10:11:09.713] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[13Apr2025 10:11:09.714] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[13Apr2025 10:11:09.738] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.23 Target: null
+[13Apr2025 10:11:09.738] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[13Apr2025 10:11:09.744] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.32 Target: null
+[13Apr2025 10:11:09.744] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[13Apr2025 10:11:09.827] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.0.jar%23190!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.0.jar%23190!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[13Apr2025 10:11:09.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Starting version check at https://forge.curseupdate.com/433068/presencefootsteps
+[13Apr2025 10:11:10.114] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Found status: BETA Current: 1.20.1-1.9.1-beta.1 Target: 1.20.1-1.9.1-beta.1
+[13Apr2025 10:11:12.935] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Apr2025 10:11:14.819] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gang-server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[13Apr2025 10:11:14.820] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gang-server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[13Apr2025 10:11:20.494] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[13Apr2025 10:11:20.507] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[13Apr2025 10:11:21.142] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[13Apr2025 10:11:21.150] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[13Apr2025 10:11:21.200] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[13Apr2025 10:11:21.365] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[13Apr2025 10:11:21.366] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[13Apr2025 10:11:21.373] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[13Apr2025 10:11:21.373] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[13Apr2025 10:11:21.388] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[13Apr2025 10:11:21.388] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[13Apr2025 10:11:21.401] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[13Apr2025 10:11:21.401] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[13Apr2025 10:11:21.406] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[13Apr2025 10:11:21.406] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[13Apr2025 10:11:21.408] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[13Apr2025 10:11:21.408] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[13Apr2025 10:11:21.410] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[13Apr2025 10:11:21.410] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[13Apr2025 10:11:21.419] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[13Apr2025 10:11:21.419] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[13Apr2025 10:11:21.420] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[13Apr2025 10:11:21.420] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[13Apr2025 10:11:21.425] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[13Apr2025 10:11:21.425] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[13Apr2025 10:11:21.435] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[13Apr2025 10:11:21.436] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[13Apr2025 10:11:21.447] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[13Apr2025 10:11:21.448] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[13Apr2025 10:11:21.448] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[13Apr2025 10:11:21.449] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[13Apr2025 10:11:21.459] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[13Apr2025 10:11:21.460] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[13Apr2025 10:11:21.464] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[13Apr2025 10:11:21.464] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[13Apr2025 10:11:21.466] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[13Apr2025 10:11:21.466] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[13Apr2025 10:11:21.486] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[13Apr2025 10:11:21.486] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[13Apr2025 10:11:21.488] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[13Apr2025 10:11:21.488] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[13Apr2025 10:11:21.495] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[13Apr2025 10:11:21.495] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[13Apr2025 10:11:21.499] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[13Apr2025 10:11:21.499] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[13Apr2025 10:11:21.507] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[13Apr2025 10:11:21.539] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[13Apr2025 10:11:21.614] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[13Apr2025 10:11:21.643] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[13Apr2025 10:11:21.651] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[13Apr2025 10:11:21.716] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3418 advancements
+[13Apr2025 10:11:21.850] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[13Apr2025 10:11:21.861] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[13Apr2025 10:11:23.075] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 7.832207ms
+[13Apr2025 10:11:23.249] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Apr2025 10:11:23.250] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Apr2025 10:11:23.250] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Apr2025 10:11:23.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Apr2025 10:11:23.383] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Apr2025 10:11:23.406] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Apr2025 10:11:23.488] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Apr2025 10:11:23.488] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Apr2025 10:11:23.489] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Apr2025 10:11:23.489] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Apr2025 10:11:23.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
+[13Apr2025 10:11:23.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.102
+[13Apr2025 10:11:23.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
+[13Apr2025 10:11:23.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[13Apr2025 10:11:23.724] [Server thread/INFO] [luckperms/]: Loading configuration...
+[13Apr2025 10:11:23.856] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
+[13Apr2025 10:11:24.112] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
+[13Apr2025 10:11:24.145] [Server thread/INFO] [luckperms/]: Performing initial data load...
+[13Apr2025 10:11:24.215] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 15614ms)
+[13Apr2025 10:11:24.271] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[13Apr2025 10:11:25.061] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[13Apr2025 10:11:25.066] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Apr2025 10:11:33.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Apr2025 10:11:39.744] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.787] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.791] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.814] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.826] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.867] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.877] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.886] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.904] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.917] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:39.961] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:40.255] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:40.258] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:40.460] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 10:11:40.960] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[13Apr2025 10:11:41.327] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7369 ms
+[13Apr2025 10:11:41.328] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.828s)! For help, type "help"
+[13Apr2025 10:11:41.386] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
+[13Apr2025 10:11:41.389] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[13Apr2025 10:11:41.389] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[13Apr2025 10:11:41.390] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Configuration options loaded!
+[13Apr2025 10:11:41.390] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Detected loaded status of luckperms is :true
+[13Apr2025 10:11:41.391] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Attempting to integrate LuckPerms API!
+[13Apr2025 10:11:41.391] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: LuckPerms API found and integrated successfully!
+[13Apr2025 10:11:41.391] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Detected forge loaded status of FTB Essentials is :false
+[13Apr2025 10:11:41.392] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: FTB Essentials wasn't found to be loaded, we won't use it!
+[13Apr2025 10:11:41.392] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Integrated nickname management enabled successfully!
+[13Apr2025 10:14:16.188] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:54667] logged in with entity id 121 at (284.3783795877985, 69.0, 284.28971398980656)
+[13Apr2025 10:14:16.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 10:15:57.550] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:plains took 431 ms
+[13Apr2025 10:16:01.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to -142.500000, 84.000000, 1349.500000]
+[13Apr2025 10:16:11.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 10:25:35.332] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:village_plains took 2278 ms
+[13Apr2025 10:25:35.333] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2240ms or 44 ticks behind
+[13Apr2025 10:25:49.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to -751.500000, 118.000000, 2528.500000]
+[13Apr2025 10:25:49.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky moved too quickly! 0.0,-10.806526110008988,0.0
+[13Apr2025 10:25:50.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky was kicked for floating too long!
+[13Apr2025 10:25:50.119] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 10:25:50.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 10:25:50.160] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Apr2025 10:26:11.693] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5e72ec0a[id=<null>,name=hehe_sky,properties={},legacy=false] (/127.80.190.127:60665) lost connection: Disconnected
+[13Apr2025 10:26:43.594] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2d0d1a6c[id=<null>,name=hehe_sky,properties={},legacy=false] (/127.80.190.127:58855) lost connection: Disconnected
+[13Apr2025 10:26:51.493] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@72cc3468[id=<null>,name=hehe_sky,properties={},legacy=false] (/127.80.190.127:42125) lost connection: Disconnected
+[13Apr2025 10:26:56.038] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:55253] logged in with entity id 5358 at (-751.5, 106.74032815778905, 2528.5)
+[13Apr2025 10:26:56.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 10:27:01.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky fell from a high place
+[13Apr2025 10:27:04.419] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for c1343cd0-c02d-3fa4-9bb3-00fca08acd52 /n If com.mojang.authlib.GameProfile@305a399e[id=c1343cd0-c02d-3fa4-9bb3-00fca08acd52,name=hehe_sky,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 10:27:16.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -751.500000, 76.500000, 2528.500000]
+[13Apr2025 10:30:09.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hehe_sky has made the advancement [Mine? Mine? Mine?]
+[13Apr2025 10:35:40.344] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:cherry_grove took 169 ms
+[13Apr2025 10:35:46.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -1179.500000, 81.000000, 2186.500000]
+[13Apr2025 10:35:46.503] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3961ms or 79 ticks behind
+[13Apr2025 10:38:36.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 10:39:13.363] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element biomesoplenty:lavender_field took 8 ms
+[13Apr2025 10:39:15.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -1230.500000, 112.000000, 2060.500000]
+[13Apr2025 10:40:11.251] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element biomesoplenty:mystic_grove took 5223 ms
+[13Apr2025 10:40:11.252] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5209ms or 104 ticks behind
+[13Apr2025 10:40:11.263] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky moved too quickly! -10.514171595921425,0.0,-0.6428218590463075
+[13Apr2025 10:40:52.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -4318.500000, 151.000000, 5189.500000]
+[13Apr2025 10:40:52.372] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5580ms or 111 ticks behind
+[13Apr2025 10:41:26.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -1230.500000, 112.000000, 2060.500000]
+[13Apr2025 10:42:36.366] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element biomesoplenty:highland took 807 ms
+[13Apr2025 10:42:53.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -386.500000, 106.000000, 3012.500000]
+[13Apr2025 10:42:53.910] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4267ms or 85 ticks behind
+[13Apr2025 10:43:00.147] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element biomesoplenty:volcanic_plains took 322 ms
+[13Apr2025 10:43:11.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -290.500000, 106.000000, 2372.500000]
+[13Apr2025 10:43:26.405] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element biomesoplenty:volcano took 931 ms
+[13Apr2025 10:43:30.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 901.500000, 106.000000, 1606.500000]
+[13Apr2025 10:44:03.080] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:cherry_grove took 2669 ms
+[13Apr2025 10:44:03.081] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2639ms or 52 ticks behind
+[13Apr2025 10:44:07.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -1176.500000, 159.000000, 2185.500000]
+[13Apr2025 10:44:38.194] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:village_plains took 4 ms
+[13Apr2025 10:44:44.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -1807.500000, 117.374999, 1920.500000]
+[13Apr2025 10:44:44.826] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4734ms or 94 ticks behind
+[13Apr2025 10:45:23.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to -750.500000, 76.000000, 2528.500000]
+[13Apr2025 10:47:08.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 10:47:38.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 0.500000, 0.000000, 0.500000]
+[13Apr2025 10:47:42.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 10:48:02.377] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:cherry_grove took 1548 ms
+[13Apr2025 10:48:13.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 480.500000, 77.000000, -1631.500000]
+[13Apr2025 10:48:13.585] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6892ms or 137 ticks behind
+[13Apr2025 10:48:54.943] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:village_plains took 2402 ms
+[13Apr2025 10:48:54.944] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2402ms or 48 ticks behind
+[13Apr2025 10:49:06.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 160.500000, 93.886073, -3151.500000]
+[13Apr2025 10:51:22.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set the time to 1000]
+[13Apr2025 10:52:14.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 10:52:26.064] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NovIInk[/127.66.85.114:38143] logged in with entity id 15931 at (-8885.302570967413, 64.1212968405392, -4268.892790773333)
+[13Apr2025 10:52:26.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NovIInk joined the game
+[13Apr2025 10:52:33.610] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-69, y=63, z=24}
+[13Apr2025 10:54:27.874] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:54 | NovIInk: erm, i mean, it's a cool place
+[13Apr2025 10:54:34.259] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:54 | NovIInk: i'm not too sure bout the biomes tho
+[13Apr2025 10:54:47.909] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:54 | NovIInk: what mod did u add for it to put time on my messages ??
+[13Apr2025 10:55:20.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NovIInk has made the advancement [Ant-Agonizer]
+[13Apr2025 10:56:28.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NovIInk has made the advancement [Ant Farm]
+[13Apr2025 10:57:22.711] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:57 |  hehe_sky: haii nova
+[13Apr2025 10:57:22.907] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:57 | NovIInk: sky, are u on ?
+[13Apr2025 10:57:26.656] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:57 | NovIInk: oh hi
+[13Apr2025 10:58:01.055] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:58 |  hehe_sky: im looking for a house building tutorial
+[13Apr2025 10:58:20.690] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:58 |  hehe_sky: did u use the resource pack i sent in dc ?
+[13Apr2025 10:58:21.337] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:58 | NovIInk: i found a really cool spot, but it's mixed beetween a dead biome and some sort of swamp
+[13Apr2025 10:58:26.811] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:58 | NovIInk: no why ?
+[13Apr2025 10:58:30.856] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:58 |  hehe_sky: use it
+[13Apr2025 10:59:36.527] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:59 | NovIInk: what does it do ?
+[13Apr2025 10:59:40.534] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:59 | NovIInk: ooooh
+[13Apr2025 10:59:42.840] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:59 |  hehe_sky: ima give u a rank
+[13Apr2025 10:59:52.283] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:59 | NovIInk: that's why u add a weird []
+[13Apr2025 10:59:59.405] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 10:59 | NovIInk: infront ya name
+[13Apr2025 11:00:01.268] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:00 |  hehe_sky: what rank do u want
+[13Apr2025 11:00:03.065] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:00 |  hehe_sky: ye
+[13Apr2025 11:00:11.089] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:00 | NovIInk: idk, what rank are there ?
+[13Apr2025 11:00:18.659] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:00 | NovIInk: or do i just name it ?
+[13Apr2025 11:00:50.654] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:00 |  hehe_sky: check server
+[13Apr2025 11:01:30.239] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:01 | NovIInk: "god" lol
+[13Apr2025 11:01:32.774] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:01 |  hehe_sky: alr
+[13Apr2025 11:01:40.107] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:01 | NovIInk: I WAS JUST JOKIN
+[13Apr2025 11:01:43.463] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:01 | NovIInk: goofin around
+[13Apr2025 11:01:50.659] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:01 |  hehe_sky: oooooh
+[13Apr2025 11:01:51.727] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:01 |  hehe_sky: lol
+[13Apr2025 11:01:52.440] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:01 | NovIInk: idk, gimme OG i gues
+[13Apr2025 11:01:54.657] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:01 | NovIInk: guess
+[13Apr2025 11:01:55.368] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:01 |  hehe_sky: alr
+[13Apr2025 11:02:36.047] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (og)
+[13Apr2025 11:02:36.048] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor add weight.11 true
+[13Apr2025 11:02:36.050] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (og)
+[13Apr2025 11:02:36.051] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor add prefix.11.  true
+[13Apr2025 11:02:54.913] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [U] (noviink)
+[13Apr2025 11:02:54.915] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set og
+[13Apr2025 11:02:58.375] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:02 |  hehe_sky: check now
+[13Apr2025 11:03:07.385] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:03 |  NovIInk: aie
+[13Apr2025 11:03:10.368] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:03 |  NovIInk: HEY
+[13Apr2025 11:03:13.584] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:03 |  hehe_sky: lol
+[13Apr2025 11:03:15.414] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:03 |  hehe_sky: w
+[13Apr2025 11:03:36.411] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:03 |  NovIInk: come look at the spot i found (if u have the coords of were u at rn)
+[13Apr2025 11:03:46.059] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:03 |  NovIInk: it's solid but i hate the dried salt biome
+[13Apr2025 11:03:50.627] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:03 |  NovIInk: and it's mixing in the spot
+[13Apr2025 11:04:13.007] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:04 |  hehe_sky: wru ?
+[13Apr2025 11:04:17.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to NovIInk]
+[13Apr2025 11:04:20.522] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:04 |  NovIInk: far, far away
+[13Apr2025 11:04:21.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 11:04:28.585] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:04 |  hehe_sky: ts fire
+[13Apr2025 11:04:42.491] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:04 |  NovIInk: but look
+[13Apr2025 11:05:06.852] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:05 |  NovIInk: murky ahh water
+[13Apr2025 11:05:14.555] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:05 |  NovIInk: murky ahhbiome
+[13Apr2025 11:05:24.160] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:05 |  NovIInk: but it's cool
+[13Apr2025 11:05:27.686] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:05 |  hehe_sky: why dont u clear this place
+[13Apr2025 11:05:46.114] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:05 |  NovIInk: i could clean it, but it doesn't remove the biome specs of thisplace
+[13Apr2025 11:06:06.662] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  hehe_sky: daaaaaang bro
+[13Apr2025 11:06:09.412] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  NovIInk: ight imma sttay, here
+[13Apr2025 11:06:12.266] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  hehe_sky: nah dont waste this place
+[13Apr2025 11:06:14.101] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  NovIInk: hydra ye
+[13Apr2025 11:06:16.679] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  hehe_sky: just extend or smt
+[13Apr2025 11:06:24.632] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  NovIInk: this shit gud fr fr
+[13Apr2025 11:06:26.936] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  hehe_sky: fr
+[13Apr2025 11:06:31.575] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  NovIInk: 10k blocks awayt lmao
+[13Apr2025 11:06:42.078] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  hehe_sky: ye just get some grass and extend
+[13Apr2025 11:06:45.114] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:06 |  NovIInk: we're 13K blocks away from spawn
+[13Apr2025 11:08:09.327] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (default)
+[13Apr2025 11:08:09.328] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor add prefix.  true
+[13Apr2025 11:08:34.291] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:08 |  hehe_sky: this should help u since ur in a mountain ig
+[13Apr2025 11:08:51.791] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:08 |  NovIInk: lol, won't help much
+[13Apr2025 11:08:57.086] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:08 |  hehe_sky: ye lol
+[13Apr2025 11:09:00.823] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  NovIInk: since it goes away after some time
+[13Apr2025 11:09:09.856] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  NovIInk: u plan to live here too ?
+[13Apr2025 11:09:12.209] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  hehe_sky: ima go to my place now
+[13Apr2025 11:09:16.030] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  hehe_sky: uhh
+[13Apr2025 11:09:16.422] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  NovIInk: ight
+[13Apr2025 11:09:24.257] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  hehe_sky: this mountain wont be enough for both os us
+[13Apr2025 11:09:26.680] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  hehe_sky: of
+[13Apr2025 11:09:31.079] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  NovIInk: oh u said 'help u" i read "help us"
+[13Apr2025 11:09:32.311] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  hehe_sky: lol
+[13Apr2025 11:09:34.319] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  NovIInk: that's why i asked
+[13Apr2025 11:09:39.324] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  hehe_sky: ohhhhh
+[13Apr2025 11:09:41.399] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  hehe_sky: alr cya
+[13Apr2025 11:09:43.438] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:09 |  NovIInk: ight
+[13Apr2025 11:09:48.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 637.500000, 73.500000, -3234.500000]
+[13Apr2025 11:10:09.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Gamerule commandBlockOutput is now set to: false]
+[13Apr2025 11:10:12.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 11:10:15.506] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:10 |  NovIInk: could i just get creative rq, so i can make a schematic of this (i need to go a corner then another corner to get the full mountain)
+[13Apr2025 11:10:25.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set NovIInk's game mode to Creative Mode]
+[13Apr2025 11:10:30.233] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:10 |  NovIInk: so i can prepare a base plan on a priv world
+[13Apr2025 11:10:34.720] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YesButNoButMaybe[/127.54.18.143:60931] logged in with entity id 26209 at (-3.9585343196424425, 65.0, 377.94792986486743)
+[13Apr2025 11:10:34.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YesButNoButMaybe joined the game
+[13Apr2025 11:10:35.345] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:10 |  NovIInk: tonks
+[13Apr2025 11:10:40.063] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:10 |  hehe_sky: np
+[13Apr2025 11:10:43.522] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:10 |  hehe_sky: hai yes
+[13Apr2025 11:11:03.029] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:11 | YesButNoButMaybe: helloooo
+[13Apr2025 11:11:16.470] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [U] (yesbutnobutmaybe)
+[13Apr2025 11:11:16.471] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set default
+[13Apr2025 11:11:22.214] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:11 | YesButNoButMaybe: i gtg in an hour so
+[13Apr2025 11:11:26.815] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:11 |  hehe_sky: oh
+[13Apr2025 11:11:59.018] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:11 | YesButNoButMaybe: but ill probs be back at like 8 pm
+[13Apr2025 11:12:20.907] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (default)
+[13Apr2025 11:12:20.908] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor remove group.default true
+[13Apr2025 11:12:20.909] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (default)
+[13Apr2025 11:12:20.909] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor remove prefix.  true
+[13Apr2025 11:12:20.913] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (member)
+[13Apr2025 11:12:20.914] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor add prefix.1.  true
+[13Apr2025 11:12:20.915] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (member)
+[13Apr2025 11:12:20.916] [luckperms-worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor add weight.1 true
+[13Apr2025 11:12:33.024] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:12 |  hehe_sky: yes do u have the resource pack on ?
+[13Apr2025 11:12:40.262] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:12 | YesButNoButMaybe: nope
+[13Apr2025 11:12:45.243] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [U] (yesbutnobutmaybe)
+[13Apr2025 11:12:45.244] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set member
+[13Apr2025 11:12:48.582] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:12 |  hehe_sky: put it on rq
+[13Apr2025 11:12:57.924] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:12 |  YesButNoButMaybe: alr
+[13Apr2025 11:16:42.077] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:16 |  YesButNoButMaybe: alr its on
+[13Apr2025 11:16:59.440] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:16 |  YesButNoButMaybe: bruh how come hes og and im a member
+[13Apr2025 11:17:10.591] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:17 |  hehe_sky: what rank do u want
+[13Apr2025 11:17:17.263] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:17 |  YesButNoButMaybe: owner
+[13Apr2025 11:17:22.330] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:17 |  YesButNoButMaybe: frfr
+[13Apr2025 11:17:27.069] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:17 |  hehe_sky: alr get this nigga outta here
+[13Apr2025 11:17:41.214] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:17 |  YesButNoButMaybe: what ranks are there?
+[13Apr2025 11:17:46.963] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:17 |  hehe_sky: look in the server
+[13Apr2025 11:17:50.874] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:17 |  hehe_sky: i sent a pic
+[13Apr2025 11:18:08.266] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:18 |  YesButNoButMaybe: wait
+[13Apr2025 11:18:17.330] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:18 |  YesButNoButMaybe: im getting molested by monsters rn
+[13Apr2025 11:18:22.567] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:18 |  hehe_sky: xd
+[13Apr2025 11:18:35.566] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:18 |  YesButNoButMaybe: TP ME TO U
+[13Apr2025 11:18:38.131] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:18 |  hehe_sky: guys can yall sleep ?
+[13Apr2025 11:18:40.229] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:18 |  YesButNoButMaybe: PLS
+[13Apr2025 11:18:46.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported YesButNoButMaybe to NovIInk]
+[13Apr2025 11:18:48.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YesButNoButMaybe fell from a high place
+[13Apr2025 11:18:50.785] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for 518c4265-bd82-35f8-986a-b687d37f9761 /n If com.mojang.authlib.GameProfile@61e5864[id=518c4265-bd82-35f8-986a-b687d37f9761,name=YesButNoButMaybe,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 11:18:52.963] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:18 |  NovIInk: smart man
+[13Apr2025 11:18:55.225] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:18 |  hehe_sky: nov give him a bed
+[13Apr2025 11:18:59.269] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:18 |  YesButNoButMaybe: UY CANNOT BE FR
+[13Apr2025 11:19:03.614] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:19 |  hehe_sky: LOL
+[13Apr2025 11:19:06.563] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:19 |  hehe_sky: whaaat ?
+[13Apr2025 11:19:15.362] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:19 |  YesButNoButMaybe: tp me pls
+[13Apr2025 11:19:36.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Gamerule playersSleepingPercentage is now set to: 1]
+[13Apr2025 11:19:37.325] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:19 |  YesButNoButMaybe: TP ME BEFORE I GET MOLESTED
+[13Apr2025 11:19:49.414] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:19 |  hehe_sky: i tped u to nov tho
+[13Apr2025 11:19:50.413] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:19 |  YesButNoButMaybe: TP MEEEEE
+[13Apr2025 11:19:58.462] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:19 |  NovIInk: he died
+[13Apr2025 11:20:00.666] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:20 |  YesButNoButMaybe: I DIED
+[13Apr2025 11:20:06.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported YesButNoButMaybe to NovIInk]
+[13Apr2025 11:20:08.629] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:20 |  hehe_sky: alr
+[13Apr2025 11:20:12.788] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:20 |  NovIInk: u tped him to me while i was jumping above a hole
+[13Apr2025 11:20:13.254] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:20 |  YesButNoButMaybe: finally
+[13Apr2025 11:20:23.036] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:20 |  NovIInk: look at my spot
+[13Apr2025 11:20:45.559] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:20 |  YesButNoButMaybe: gimme god
+[13Apr2025 11:20:51.671] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:20 |  NovIInk: LOL
+[13Apr2025 11:20:57.826] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:20 |  NovIInk: i said the same thing
+[13Apr2025 11:21:06.104] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:21 |  NovIInk: then i asked for og
+[13Apr2025 11:21:42.157] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:21 |  YesButNoButMaybe: alr alr srsly tho
+[13Apr2025 11:21:47.485] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:21 |  YesButNoButMaybe: gimme event staff
+[13Apr2025 11:21:51.087] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:21 |  hehe_sky: alr
+[13Apr2025 11:22:06.762] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:22 |  NovIInk: anyhow, imma continue on my schematic making
+[13Apr2025 11:22:12.758] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:22 |  YesButNoButMaybe: alr bro
+[13Apr2025 11:22:25.961] [luckperms-worker-4/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (eventstaff)
+[13Apr2025 11:22:25.962] [luckperms-worker-4/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor add prefix.15.  true
+[13Apr2025 11:22:25.963] [luckperms-worker-4/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (eventstaff)
+[13Apr2025 11:22:25.963] [luckperms-worker-4/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor add weight.15 true
+[13Apr2025 11:22:40.770] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [U] (yesbutnobutmaybe)
+[13Apr2025 11:22:40.771] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set eventstaff
+[13Apr2025 11:22:42.828] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:22 |  hehe_sky: now ?
+[13Apr2025 11:22:48.858] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:22 |  YesButNoButMaybe: wt
+[13Apr2025 11:22:53.330] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:22 |  YesButNoButMaybe: YOOOO
+[13Apr2025 11:22:56.261] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:22 |  YesButNoButMaybe: W
+[13Apr2025 11:22:58.109] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:22 |  hehe_sky: LOL
+[13Apr2025 11:23:48.230] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:23 |  YesButNoButMaybe: what does event staff even mean
+[13Apr2025 11:24:01.213] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:24 |  NovIInk: u prepare and organize events
+[13Apr2025 11:24:03.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YesButNoButMaybe has made the advancement [Isn't It Iron Pick]
+[13Apr2025 11:24:09.685] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:24 |  NovIInk: mf
+[13Apr2025 11:24:11.074] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:24 |  YesButNoButMaybe: bruh
+[13Apr2025 11:24:13.011] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:24 |  NovIInk: don't take my shit
+[13Apr2025 11:24:24.775] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:24 |  YesButNoButMaybe: i just took a half used axe and pickaxe
+[13Apr2025 11:24:33.914] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:24 |  NovIInk: ight
+[13Apr2025 11:26:00.667] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:26 |  YesButNoButMaybe: what abt dev?
+[13Apr2025 11:26:09.270] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:26 |  YesButNoButMaybe: whats that supposed to do
+[13Apr2025 11:28:56.292] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:28 |  NovIInk: ight
+[13Apr2025 11:29:22.476] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:29 |  NovIInk: i got it Sky, u can remove cr
+[13Apr2025 11:29:32.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set NovIInk's game mode to Survival Mode]
+[13Apr2025 11:29:34.532] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:29 |  NovIInk: and where tf did u go Yes
+[13Apr2025 11:29:36.810] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:29 |  YesButNoButMaybe: sky
+[13Apr2025 11:29:42.416] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:29 |  hehe_sky: ?
+[13Apr2025 11:29:46.333] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:29 |  YesButNoButMaybe: sky can i have some food im bouta die
+[13Apr2025 11:29:58.318] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:29 |  hehe_sky: food ?
+[13Apr2025 11:29:58.414] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:29 |  NovIInk: i have food, but u left before i could give u some
+[13Apr2025 11:30:05.472] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:30 |  YesButNoButMaybe: :(
+[13Apr2025 11:30:18.414] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:30 |  hehe_sky: do u want me to tp u to nov
+[13Apr2025 11:30:22.978] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:30 |  YesButNoButMaybe: yuh
+[13Apr2025 11:30:27.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported YesButNoButMaybe to NovIInk]
+[13Apr2025 11:30:34.713] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:30 |  YesButNoButMaybe: I NEED FOOD PLSSSS
+[13Apr2025 11:30:34.728] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:30 |  hehe_sky: guys sleep
+[13Apr2025 11:30:48.125] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:30 |  YesButNoButMaybe: YEEES TYSM
+[13Apr2025 11:31:07.974] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:31 |  YesButNoButMaybe: wait so if the majority of players sleep night gets skipped
+[13Apr2025 11:31:12.617] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:31 |  YesButNoButMaybe: thats a great feature
+[13Apr2025 11:31:18.073] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:31 |  NovIInk: das a mod ?
+[13Apr2025 11:31:21.731] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:31 |  hehe_sky: i changed it to 1 player
+[13Apr2025 11:31:23.689] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:31 |  hehe_sky: no
+[13Apr2025 11:31:25.689] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:31 |  YesButNoButMaybe: oh
+[13Apr2025 11:31:28.019] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:31 |  NovIInk: oh, dat nice
+[13Apr2025 11:32:23.934] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:32 |  YesButNoButMaybe: can i have one of the helmets
+[13Apr2025 11:32:25.360] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:32 |  NovIInk: imma go on my priv, re organize allat
+[13Apr2025 11:32:37.577] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:32 |  NovIInk: cya in like, idk 20 mins or a bit less
+[13Apr2025 11:32:43.055] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NovIInk lost connection: Disconnected
+[13Apr2025 11:32:43.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NovIInk left the game
+[13Apr2025 11:35:42.914] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:35 |  YesButNoButMaybe: yo bro
+[13Apr2025 11:35:47.663] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:35 |  hehe_sky: ye
+[13Apr2025 11:35:50.961] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:35 |  YesButNoButMaybe: u got any leather per say?
+[13Apr2025 11:35:59.932] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:35 |  hehe_sky: leather ?
+[13Apr2025 11:36:01.782] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:36 |  hehe_sky: nah i dont
+[13Apr2025 11:36:02.911] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:36 |  YesButNoButMaybe: yuh
+[13Apr2025 11:36:07.683] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:36 |  YesButNoButMaybe: alrw
+[13Apr2025 11:40:49.627] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:40 |  YesButNoButMaybe: tp m,r
+[13Apr2025 11:40:51.940] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:40 |  YesButNoButMaybe: RN
+[13Apr2025 11:40:57.624] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:40 |  hehe_sky: where
+[13Apr2025 11:41:00.862] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:41 |  YesButNoButMaybe: TO U
+[13Apr2025 11:41:02.965] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:41 |  hehe_sky: why
+[13Apr2025 11:41:06.678] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:41 |  YesButNoButMaybe: A DRAGON
+[13Apr2025 11:41:16.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 11:41:21.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported YesButNoButMaybe to hehe_sky]
+[13Apr2025 11:41:25.284] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:41 |  YesButNoButMaybe: OMG
+[13Apr2025 11:41:26.854] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:41 |  YesButNoButMaybe: TY
+[13Apr2025 11:41:29.860] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:41 |  hehe_sky: LOL
+[13Apr2025 11:41:36.856] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:41 |  YesButNoButMaybe: W base
+[13Apr2025 11:41:40.309] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:41 |  hehe_sky: ty
+[13Apr2025 11:41:46.337] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:41 |  YesButNoButMaybe: slep
+[13Apr2025 11:42:05.190] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:42 |  hehe_sky: did u find a place to build in ?
+[13Apr2025 11:42:10.763] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:42 |  YesButNoButMaybe: nah
+[13Apr2025 11:42:16.375] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:42 |  hehe_sky: there is a good place if u want
+[13Apr2025 11:42:19.131] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:42 |  YesButNoButMaybe: i aint finna build yet
+[13Apr2025 11:42:22.712] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:42 |  hehe_sky: oh
+[13Apr2025 11:42:27.657] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:42 |  YesButNoButMaybe: i need to gear up first
+[13Apr2025 11:42:39.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 11:45:27.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YesButNoButMaybe has made the advancement [Acquire Hardware]
+[13Apr2025 11:46:40.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YesButNoButMaybe has made the advancement [Suit Up]
+[13Apr2025 11:48:47.559] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=503, y=90, z=-3395} BlockPos{x=504, y=91, z=-3395}
+[13Apr2025 11:49:38.972] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 11:49:38.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hehe_sky left the game
+[13Apr2025 11:51:15.167] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:55083] logged in with entity id 49864 at (610.0440781740817, 72.0, -3237.80187566809)
+[13Apr2025 11:51:15.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 11:52:33.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YesButNoButMaybe has made the advancement [Diamonds!]
+[13Apr2025 11:52:38.432] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:52 |  hehe_sky: ohhhhhhh
+[13Apr2025 11:52:41.111] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:52 |  hehe_sky: nice
+[13Apr2025 11:52:46.763] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:52 |  YesButNoButMaybe: I HIT THE STASHHH
+[13Apr2025 11:58:00.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has made the advancement [Ice Bucket Challenge]
+[13Apr2025 11:58:04.513] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:58 |  hehe_sky: yesssssir
+[13Apr2025 11:58:09.115] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:58 |  YesButNoButMaybe: TP MEEEE
+[13Apr2025 11:58:10.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YesButNoButMaybe burned to death
+[13Apr2025 11:58:12.221] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for 518c4265-bd82-35f8-986a-b687d37f9761 /n If com.mojang.authlib.GameProfile@61e5864[id=518c4265-bd82-35f8-986a-b687d37f9761,name=YesButNoButMaybe,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 11:58:14.524] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:58 |  hehe_sky: ..
+[13Apr2025 11:58:23.709] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:58 |  YesButNoButMaybe: BROOOO
+[13Apr2025 11:58:28.112] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:58 |  YesButNoButMaybe: I HAD DIAMONDSSSS
+[13Apr2025 11:59:27.483] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:59 |  YesButNoButMaybe: BRO
+[13Apr2025 11:59:46.915] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 11:59 |  YesButNoButMaybe: pls tp me to 254 74 -3532
+[13Apr2025 11:59:58.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported YesButNoButMaybe to 254.500000, 74.000000, -3531.500000]
+[13Apr2025 12:00:00.380] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 12:00 |  YesButNoButMaybe: i gtg rn pls just do it
+[13Apr2025 12:00:06.769] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 12:00 |  YesButNoButMaybe: ty
+[13Apr2025 12:00:35.761] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YesButNoButMaybe lost connection: Disconnected
+[13Apr2025 12:00:35.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YesButNoButMaybe left the game
+[13Apr2025 12:38:07.356] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 12:38:07.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 12:38:14.158] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:56739] logged in with entity id 58563 at (624.1205300855615, 82.49390748022948, -3217.299403977202)
+[13Apr2025 12:38:14.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 12:38:16.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 12:38:16.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 12:39:56.904] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:43945] logged in with entity id 58778 at (624.1205300855615, 82.49390748022948, -3217.299403977202)
+[13Apr2025 12:39:56.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 13:16:45.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 13:24:50.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 13:26:05.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 13:26:20.498] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 13:26:20.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 13:29:53.106] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:36723] logged in with entity id 63338 at (602.9156313517457, 72.0, -3247.1471488899715)
+[13Apr2025 13:29:53.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 13:32:15.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Gave 1 [Cherry Sapling] to  hehe_sky]
+[13Apr2025 13:33:09.774] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rayen45[/127.96.251.5:33695] logged in with entity id 63983 at (-351.30000001192093, -23.875, 608.6999999880791)
+[13Apr2025 13:33:09.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 joined the game
+[13Apr2025 13:33:11.451] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rayen45 lost connection: Disconnected
+[13Apr2025 13:33:11.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 left the game
+[13Apr2025 13:35:04.210] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rayen45[/127.96.251.5:36409] logged in with entity id 64290 at (-351.30000001192093, -23.875, 608.6999999880791)
+[13Apr2025 13:35:04.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 joined the game
+[13Apr2025 13:35:05.703] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rayen45 lost connection: Disconnected
+[13Apr2025 13:35:05.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 left the game
+[13Apr2025 13:41:11.608] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rayen45[/127.96.251.5:34797] logged in with entity id 65458 at (-351.30000001192093, -23.875, 608.6999999880791)
+[13Apr2025 13:41:11.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 joined the game
+[13Apr2025 13:41:21.882] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for 2a92d9d5-10ed-3fb8-9f41-616ed1b31109 /n If com.mojang.authlib.GameProfile@8c2ba63[id=2a92d9d5-10ed-3fb8-9f41-616ed1b31109,name=Rayen45,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 13:41:26.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported Rayen45 to  hehe_sky]
+[13Apr2025 13:41:40.001] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:41 |  hehe_sky: just tell me the death cords
+[13Apr2025 13:41:52.151] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:41 |  hehe_sky: press u
+[13Apr2025 13:41:56.501] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:41 |  hehe_sky: and go to latest death
+[13Apr2025 13:41:59.085] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:41 | Rayen45: xaero-waypoint:gui.xaero-deathpoint:D:-352:-24:608:0:false:0:Internal-overworld-waypoints
+[13Apr2025 13:42:21.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported Rayen45 to -351.500000, -24.000000, 608.500000]
+[13Apr2025 13:42:35.959] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:42 |  hehe_sky: tp u back ?
+[13Apr2025 13:42:49.592] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:42 |  hehe_sky: do i tp u back
+[13Apr2025 13:42:51.215] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:42 |  hehe_sky: LOL
+[13Apr2025 13:42:59.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported Rayen45 to  hehe_sky]
+[13Apr2025 13:43:25.272] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:43 |  hehe_sky: leme show u ur room
+[13Apr2025 13:44:45.852] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:44 |  hehe_sky: ?
+[13Apr2025 13:44:51.383] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:44 |  hehe_sky: wood ?
+[13Apr2025 13:45:02.166] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:45 |  hehe_sky: heyl naw i lit used every single wood
+[13Apr2025 13:45:15.737] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:45 |  hehe_sky: had to travel to get spruce wood
+[13Apr2025 13:45:32.729] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:45 |  hehe_sky: btw there is a W place near us
+[13Apr2025 13:45:51.088] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:45 |  hehe_sky: its goated
+[13Apr2025 13:45:51.899] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:45 |  hehe_sky: no
+[13Apr2025 13:46:24.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has made the advancement [Diamonds!]
+[13Apr2025 13:46:44.900] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:46 |  hehe_sky: dw dragon armor is better ig
+[13Apr2025 13:46:52.410] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:46 |  hehe_sky: from scaled
+[13Apr2025 13:46:53.623] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:46 |  hehe_sky: s
+[13Apr2025 13:47:14.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has made the advancement [Who You Gonna Call?]
+[13Apr2025 13:49:04.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 was slain by Ghost
+[13Apr2025 13:49:06.788] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for 2a92d9d5-10ed-3fb8-9f41-616ed1b31109 /n If com.mojang.authlib.GameProfile@8c2ba63[id=2a92d9d5-10ed-3fb8-9f41-616ed1b31109,name=Rayen45,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 13:49:25.307] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:49 |  hehe_sky: rip
+[13Apr2025 13:49:30.513] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:49 |  hehe_sky: no
+[13Apr2025 13:50:36.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported Rayen45 to  hehe_sky]
+[13Apr2025 13:51:47.282] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:51 |  hehe_sky: do u want a rank ?
+[13Apr2025 13:51:57.180] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:51 |  hehe_sky: like the one i have
+[13Apr2025 13:52:02.952] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rayen45 lost connection: Disconnected
+[13Apr2025 13:52:02.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 left the game
+[13Apr2025 13:54:10.067] [luckperms-worker-2/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (mvp++)
+[13Apr2025 13:54:10.071] [luckperms-worker-2/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor add weight.20 true
+[13Apr2025 13:54:10.073] [luckperms-worker-2/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [G] (mvp++)
+[13Apr2025 13:54:10.078] [luckperms-worker-2/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > webeditor add prefix.20.  true
+[13Apr2025 13:54:32.912] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rayen45[/127.96.251.5:47087] logged in with entity id 68373 at (611.4637844414883, 72.0, -3249.3617759772037)
+[13Apr2025 13:54:32.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 joined the game
+[13Apr2025 13:54:54.016] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (hehe_sky) [U] (rayen45)
+[13Apr2025 13:54:54.016] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set mvp++
+[13Apr2025 13:54:57.005] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:54 |  hehe_sky: alr text in chat
+[13Apr2025 13:55:03.467] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:55 |  Rayen45: wsg lil nigga
+[13Apr2025 13:55:20.506] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:55 |  hehe_sky: rejoin if u want it to appear in tab list
+[13Apr2025 13:55:57.128] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:55 |  hehe_sky: no
+[13Apr2025 13:56:17.200] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:56 |  hehe_sky: lesgo explore i wanna show u the w place
+[13Apr2025 13:56:31.150] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 13:56:31.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 13:57:50.660] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:41757] logged in with entity id 68717 at (598.6847716352986, 72.0, -3237.2109086403625)
+[13Apr2025 13:57:50.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 13:58:12.452] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:58 |  hehe_sky: bro this without motion blur feels so different
+[13Apr2025 13:58:14.188] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:58 |  hehe_sky: not yet
+[13Apr2025 13:58:23.289] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:58 |  hehe_sky: lava bucket and water bucket
+[13Apr2025 13:58:26.453] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:58 |  hehe_sky: WHAT
+[13Apr2025 13:58:27.467] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:58 |  hehe_sky: PAUSE
+[13Apr2025 13:58:39.628] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:58 |  hehe_sky: follow me
+[13Apr2025 13:58:48.280] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 13:58 |  hehe_sky: awh hel naw
+[13Apr2025 13:59:34.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 was burnt to a crisp whilst fighting Fire Dragon
+[13Apr2025 13:59:36.709] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for 2a92d9d5-10ed-3fb8-9f41-616ed1b31109 /n If com.mojang.authlib.GameProfile@541ecf21[id=2a92d9d5-10ed-3fb8-9f41-616ed1b31109,name=Rayen45,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 13:59:47.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 13:59:47.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 14:00:12.657] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:43145] logged in with entity id 69800 at (430.25843214289785, 76.0, -3250.8264341484773)
+[13Apr2025 14:00:12.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 14:00:16.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky was slain by Fire Dragon
+[13Apr2025 14:00:20.413] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for c1343cd0-c02d-3fa4-9bb3-00fca08acd52 /n If com.mojang.authlib.GameProfile@32928c69[id=c1343cd0-c02d-3fa4-9bb3-00fca08acd52,name=hehe_sky,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 14:00:23.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 428.500000, 76.500000, -3250.500000]
+[13Apr2025 14:00:27.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 14:00:45.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 14:00:47.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:00:57.554] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:00 |  hehe_sky: ref do smt
+[13Apr2025 14:01:08.405] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:01 |  hehe_sky: rNO
+[13Apr2025 14:01:10.979] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:01 |  hehe_sky: NOT THE HOUSE
+[13Apr2025 14:01:15.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 burned to death
+[13Apr2025 14:01:16.382] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for 2a92d9d5-10ed-3fb8-9f41-616ed1b31109 /n If com.mojang.authlib.GameProfile@541ecf21[id=2a92d9d5-10ed-3fb8-9f41-616ed1b31109,name=Rayen45,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 14:01:27.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 14:01:58.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:02:00.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hehe_sky has made the advancement [Dragonslayer]
+[13Apr2025 14:02:10.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 14:02:42.505] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:02 |  hehe_sky: he's only stage 3 bro
+[13Apr2025 14:03:36.368] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:03 |  hehe_sky: wru
+[13Apr2025 14:03:54.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:05:41.771] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:05 |  hehe_sky: lets go
+[13Apr2025 14:06:21.779] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:06 |  hehe_sky: RAYEN
+[13Apr2025 14:06:41.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hehe_sky was incinerated by Fire Dragon
+[13Apr2025 14:06:41.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 14:06:42.709] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for c1343cd0-c02d-3fa4-9bb3-00fca08acd52 /n If com.mojang.authlib.GameProfile@32928c69[id=c1343cd0-c02d-3fa4-9bb3-00fca08acd52,name=hehe_sky,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 14:06:46.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 392.500000, 87.500000, -3360.500000]
+[13Apr2025 14:07:08.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:07:20.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 14:08:11.554] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:08 |  hehe_sky: same
+[13Apr2025 14:08:15.758] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:08 |  hehe_sky: they doing too much tho
+[13Apr2025 14:08:28.685] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:08 |  hehe_sky: why
+[13Apr2025 14:08:36.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 618.500000, 76.500000, -3232.500000]
+[13Apr2025 14:08:38.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:09:36.319] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:09 |  hehe_sky: there is one
+[13Apr2025 14:09:44.973] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:09 |  hehe_sky: i lost the waypoint..
+[13Apr2025 14:09:46.041] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:09 |  hehe_sky: sigh
+[13Apr2025 14:09:55.204] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:09 |  hehe_sky: i think its this way
+[13Apr2025 14:10:14.884] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:10 |  hehe_sky: its in the purple flower ahh field
+[13Apr2025 14:11:36.302] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:11 |  hehe_sky: not these
+[13Apr2025 14:11:45.268] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:11 |  hehe_sky: ITS CLOSE
+[13Apr2025 14:12:01.592] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:12 |  hehe_sky: fr
+[13Apr2025 14:12:26.435] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:12 |  hehe_sky: he's there
+[13Apr2025 14:12:57.138] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:12 |  hehe_sky: wait
+[13Apr2025 14:13:01.122] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:cherry_grove took 369 ms
+[13Apr2025 14:13:03.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 866.500000, 159.000000, -4444.500000]
+[13Apr2025 14:13:05.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hehe_sky fell from a high place
+[13Apr2025 14:13:07.806] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for c1343cd0-c02d-3fa4-9bb3-00fca08acd52 /n If com.mojang.authlib.GameProfile@32928c69[id=c1343cd0-c02d-3fa4-9bb3-00fca08acd52,name=hehe_sky,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 14:13:10.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 866.500000, 117.500000, -4444.500000]
+[13Apr2025 14:13:15.116] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:13 |  hehe_sky: we dont talk abt it
+[13Apr2025 14:13:39.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to Rayen45]
+[13Apr2025 14:13:51.472] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:13 |  hehe_sky: wait bro
+[13Apr2025 14:13:54.586] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:13 |  hehe_sky: aaaaaaaaaaaaaaaaaaaaaa
+[13Apr2025 14:13:56.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 14:13:59.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 336.500000, 80.500000, -3542.500000]
+[13Apr2025 14:14:11.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 299.500000, 99.500000, -3154.500000]
+[13Apr2025 14:14:34.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 309.500000, 75.500000, -3513.500000]
+[13Apr2025 14:14:42.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 335.500000, 55.500000, -3700.500000]
+[13Apr2025 14:14:54.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 526.500000, 85.500000, -3797.500000]
+[13Apr2025 14:15:15.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 772.500000, 89.500000, -3714.500000]
+[13Apr2025 14:15:28.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 231.500000, 109.500000, -3184.500000]
+[13Apr2025 14:15:35.689] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:cherry_grove took 671 ms
+[13Apr2025 14:15:44.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 1223.500000, 109.000000, -2384.500000]
+[13Apr2025 14:15:44.760] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6167ms or 123 ticks behind
+[13Apr2025 14:16:08.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 358.500000, 83.500000, -3323.500000]
+[13Apr2025 14:16:28.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 568.500000, 71.500000, -3651.500000]
+[13Apr2025 14:16:38.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:16:45.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported hehe_sky to 459.500000, 90.500000, -3904.500000]
+[13Apr2025 14:16:56.821] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:16 |  hehe_sky: yep i found it
+[13Apr2025 14:17:02.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 14:17:05.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:17:13.552] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:17 |  hehe_sky: one sec
+[13Apr2025 14:18:05.905] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:18 |  hehe_sky: behind u
+[13Apr2025 14:18:09.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 14:18:14.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 burned to death
+[13Apr2025 14:18:17.767] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:18 |  hehe_sky: LOL
+[13Apr2025 14:18:21.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:18:24.159] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for 2a92d9d5-10ed-3fb8-9f41-616ed1b31109 /n If com.mojang.authlib.GameProfile@541ecf21[id=2a92d9d5-10ed-3fb8-9f41-616ed1b31109,name=Rayen45,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 14:18:26.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 14:18:55.306] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:18 |  hehe_sky: rayen ?
+[13Apr2025 14:18:57.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:19:15.763] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:19 |  hehe_sky: any torches ?
+[13Apr2025 14:20:18.455] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:20 |  hehe_sky: its there
+[13Apr2025 14:20:53.441] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:20 |  hehe_sky: what if i throw a torch
+[13Apr2025 14:23:34.770] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:23 |  hehe_sky: HOLY
+[13Apr2025 14:23:51.575] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:23 |  hehe_sky: free exp farm
+[13Apr2025 14:26:45.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 14:27:47.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 14:27:49.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hehe_sky: Teleported Rayen45 to hehe_sky]
+[13Apr2025 14:27:51.358] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:27 |  hehe_sky: shhhhhhh
+[13Apr2025 14:27:56.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 has made the advancement [Sneak 100]
+[13Apr2025 14:28:05.207] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:28 |  hehe_sky: city
+[13Apr2025 14:30:01.608] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:30 |  hehe_sky: get wool
+[13Apr2025 14:30:04.334] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:30 |  hehe_sky: he cant hear u
+[13Apr2025 14:30:48.888] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:30 |  hehe_sky: awh hel naw
+[13Apr2025 14:30:55.268] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:30 |  hehe_sky: ggs
+[13Apr2025 14:31:44.156] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 14:31:44.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hehe_sky left the game
+[13Apr2025 14:34:08.457] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:34651] logged in with entity id 84544 at (386.30000001192093, -51.0, -3991.300000011921)
+[13Apr2025 14:34:08.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 14:35:02.807] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 14:35 |  hehe_sky: bro
+[13Apr2025 14:35:32.555] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 14:35:32.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 14:36:43.253] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4e9d725[id=<null>,name=hehe_sky,properties={},legacy=false] (/127.80.190.127:44677) lost connection: Disconnected
+[13Apr2025 14:37:12.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
+[13Apr2025 14:37:12.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: title @a nigger<--[HERE]
+[13Apr2025 14:37:15.504] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1cf525cf[id=<null>,name=hehe_sky,properties={},legacy=false] (/127.80.190.127:60983) lost connection: Disconnected
+[13Apr2025 14:37:19.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Invalid chat component: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+[13Apr2025 14:37:19.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ... @a title ggs<--[HERE]
+[13Apr2025 14:37:24.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 has made the advancement [Cover Me with Diamonds]
+[13Apr2025 14:37:28.571] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:45919] logged in with entity id 85118 at (374.69999998807907, -47.0, -4023.3286400633333)
+[13Apr2025 14:37:28.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 14:38:16.504] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rayen45 lost connection: Disconnected
+[13Apr2025 14:38:16.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 left the game
+[13Apr2025 14:38:34.902] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 14:38:34.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 16:47:45.260] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rayen45[/127.96.251.5:41745] logged in with entity id 85463 at (365.97482241633435, -51.0, -4096.440144163466)
+[13Apr2025 16:47:45.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  Rayen45 joined the game
+[13Apr2025 16:47:57.300] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rayen45 lost connection: Disconnected
+[13Apr2025 16:47:57.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  Rayen45 left the game
+[13Apr2025 16:48:00.357] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:44685] logged in with entity id 85800 at (377.2479400697021, -44.0, -4028.2683291635667)
+[13Apr2025 16:48:00.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 16:48:20.853] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Disconnected
+[13Apr2025 16:48:20.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 16:48:39.603] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rayen45[/127.96.251.5:58427] logged in with entity id 86109 at (366.8266950928171, -50.311816588343056, -4098.172469902544)
+[13Apr2025 16:48:39.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  Rayen45 joined the game
+[13Apr2025 16:48:49.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  Rayen45 was slain by Warden
+[13Apr2025 16:48:52.278] [Server thread/WARN] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: Caught Exception: java.lang.IllegalStateException: Capability missing for 2a92d9d5-10ed-3fb8-9f41-616ed1b31109 /n If com.mojang.authlib.GameProfile@4c196c06[id=2a92d9d5-10ed-3fb8-9f41-616ed1b31109,name=Rayen45,properties={},legacy=false] is a fake player (added by mod) this warning can be ignored
+[13Apr2025 16:48:56.957] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-47, y=68, z=37}
+[13Apr2025 16:48:57.008] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-48, y=67, z=37}
+[13Apr2025 16:48:57.804] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-49, y=68, z=39}
+[13Apr2025 16:48:57.899] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-48, y=68, z=38}
+[13Apr2025 16:49:00.453] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-44, y=68, z=36}
+[13Apr2025 16:49:00.897] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rayen45 lost connection: Disconnected
+[13Apr2025 16:49:00.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rayen45 left the game
+[13Apr2025 16:49:07.245] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5ecd297f[id=<null>,name=hehe_sky,properties={},legacy=false] (/127.80.190.127:53597) lost connection: Disconnected
+[13Apr2025 16:49:12.546] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@655d3105[id=<null>,name=hehe_sky,properties={},legacy=false] (/127.80.190.127:57789) lost connection: Disconnected
+[13Apr2025 16:49:18.152] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.80.190.127:41479] logged in with entity id 86619 at (375.32685582643137, -49.12648295768407, -4028.3752189500055)
+[13Apr2025 16:49:18.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 16:49:25.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 16:49:33.950] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@491b3aad[id=<null>,name=Rayen45,properties={},legacy=false] (/127.96.251.5:57481) lost connection: Disconnected
+[13Apr2025 16:50:08.551] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4db5b1dc[id=<null>,name=Rayen45,properties={},legacy=false] (/127.96.251.5:33735) lost connection: Disconnected
+[13Apr2025 16:50:27.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 16:50:51.707] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rayen45[/127.96.251.5:46253] logged in with entity id 87379 at (-46.72789036703292, 69.0, 37.799209617616334)
+[13Apr2025 16:50:51.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  Rayen45 joined the game
+[13Apr2025 16:50:58.155] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-41, y=69, z=40}
+[13Apr2025 16:51:00.963] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-44, y=68, z=36}
+[13Apr2025 16:51:01.203] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-44, y=68, z=37}
+[13Apr2025 16:51:15.437] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:51 |  hehe_sky: no
+[13Apr2025 16:51:19.889] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:51 |  hehe_sky: why ?
+[13Apr2025 16:53:45.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky moved too quickly! 10.18183179558946,0.0,-2.794742904650775
+[13Apr2025 16:53:46.947] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/88655, l='ServerLevel[world]', x=695.58, y=72.00, z=-4226.45, removed=DISCARDED]
+[13Apr2025 16:55:09.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 618.500000, 76.500000, -3232.500000]
+[13Apr2025 16:55:12.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 16:55:34.017] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:55 |  hehe_sky: ima go get some food
+[13Apr2025 16:55:45.206] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:55 |  hehe_sky: why
+[13Apr2025 16:55:52.870] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:55 |  hehe_sky: :sob:
+[13Apr2025 16:56:16.959] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:56 |  hehe_sky: i went to marjane yesterday i got every shit i needed
+[13Apr2025 16:56:27.929] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:56 |  hehe_sky: supermarket
+[13Apr2025 16:56:30.619] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:56 |  hehe_sky: its like ikea
+[13Apr2025 16:57:05.238] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:57 |  hehe_sky: btw
+[13Apr2025 16:57:11.886] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:57 |  hehe_sky: search nature's compass
+[13Apr2025 16:57:14.424] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:57 |  hehe_sky: and make one
+[13Apr2025 16:57:30.462] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:57 |  hehe_sky: it will help u so much
+[13Apr2025 16:57:31.214] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:57 |  hehe_sky: ye
+[13Apr2025 16:57:44.238] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 16:57 |  hehe_sky: alr brb
+[13Apr2025 16:59:25.162] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rayen45 lost connection: Disconnected
+[13Apr2025 16:59:25.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  Rayen45 left the game
+[13Apr2025 17:04:24.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has made the advancement [Reaping What You Sow]
+[13Apr2025 17:11:35.507] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4905da5e[id=<null>,name=Rayen45,properties={},legacy=false] (/127.96.251.5:54313) lost connection: Disconnected
+[13Apr2025 17:12:12.006] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@8dec725[id=<null>,name=Rayen45,properties={},legacy=false] (/127.96.251.5:41275) lost connection: Disconnected
+[13Apr2025 17:12:49.808] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@191345be[id=<null>,name=Rayen45,properties={},legacy=false] (/127.96.251.5:54029) lost connection: Disconnected
+[13Apr2025 17:14:50.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 604.500000, 40.500000, -3969.500000]
+[13Apr2025 17:15:44.664] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rayen45[/127.96.251.5:59889] logged in with entity id 93076 at (-190.30000001192093, 77.0, 554.3000000119209)
+[13Apr2025 17:15:44.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  Rayen45 joined the game
+[13Apr2025 17:16:52.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has completed the challenge [Just a Flesh Wound]
+[13Apr2025 17:16:57.875] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:16 |  hehe_sky: yessir
+[13Apr2025 17:17:08.066] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:17 |  hehe_sky: i got u smt
+[13Apr2025 17:17:10.922] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:17 |  hehe_sky: go back to the base
+[13Apr2025 17:17:15.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 618.500000, 76.500000, -3232.500000]
+[13Apr2025 17:17:21.925] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:17 |  hehe_sky: grrrrrrr
+[13Apr2025 17:17:28.566] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:17 |  hehe_sky: smt will help u so much bro
+[13Apr2025 17:19:06.473] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hehe_sky lost connection: Timed out
+[13Apr2025 17:19:06.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky left the game
+[13Apr2025 17:19:20.105] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@51fa9abf[id=<null>,name=hehe_sky,properties={},legacy=false] (/127.184.124.73:57833) lost connection: Disconnected
+[13Apr2025 17:19:25.502] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@72b3fd43[id=<null>,name=hehe_sky,properties={},legacy=false] (/127.184.124.73:37733) lost connection: Disconnected
+[13Apr2025 17:19:30.818] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hehe_sky[/127.184.124.73:56027] logged in with entity id 94904 at (606.9027572799703, 72.0, -3261.1599046478327)
+[13Apr2025 17:19:30.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky joined the game
+[13Apr2025 17:22:58.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 17:23:09.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 546.500000, 119.500000, -4108.500000]
+[13Apr2025 17:23:17.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 763.500000, 90.500000, -3980.500000]
+[13Apr2025 17:23:38.507] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:savanna took 40 ms
+[13Apr2025 17:23:41.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 991.500000, 96.000000, -4170.500000]
+[13Apr2025 17:24:14.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has reached the goal [The Cave That Time Forgot]
+[13Apr2025 17:26:22.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 17:26:29.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has made the advancement [Law of Club and Fang]
+[13Apr2025 17:26:40.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has made the advancement [Strictly Medicinal Purposes]
+[13Apr2025 17:27:04.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has made the advancement [Life Finds A Way]
+[13Apr2025 17:28:51.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 17:30:50.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has reached the goal [Tyrant King]
+[13Apr2025 17:30:50.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has made the advancement [Best Friends Forever]
+[13Apr2025 17:34:02.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  Rayen45 has made the advancement [Not Today, Thank You]
+[13Apr2025 17:38:22.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported Tremorsaurus to 618.500000, 76.000000, -3232.500000]
+[13Apr2025 17:38:28.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 618.500000, 76.500000, -3232.500000]
+[13Apr2025 17:42:24.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  hehe_sky has made the advancement [Voluntary Exile]
+[13Apr2025 17:43:01.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Creative Mode]
+[13Apr2025 17:43:39.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 17:43:56.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 17:44:01.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 1196.500000, 91.500000, -4540.500000]
+[13Apr2025 17:44:14.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 976.500000, 69.500000, -4613.500000]
+[13Apr2025 17:44:32.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 1456.500000, 103.500000, -4535.500000]
+[13Apr2025 17:44:59.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 939.500000, 64.500000, -4740.500000]
+[13Apr2025 17:45:27.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Applied effect Night Vision to  hehe_sky]
+[13Apr2025 17:46:01.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 782.500000, 128.500000, -4901.500000]
+[13Apr2025 17:46:03.390] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_4,waterlogged=false] but failed at location BlockPos{x=719, y=44, z=-4840}
+[13Apr2025 17:46:03.391] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_2,waterlogged=false] but failed at location BlockPos{x=719, y=42, z=-4840}
+[13Apr2025 17:46:03.391] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_3,waterlogged=false] but failed at location BlockPos{x=719, y=43, z=-4839}
+[13Apr2025 17:46:03.392] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_4,waterlogged=false] but failed at location BlockPos{x=719, y=44, z=-4838}
+[13Apr2025 17:46:03.392] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_3,waterlogged=false] but failed at location BlockPos{x=719, y=43, z=-4840}
+[13Apr2025 17:46:03.392] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_4,waterlogged=false] but failed at location BlockPos{x=719, y=44, z=-4839}
+[13Apr2025 17:46:03.392] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_2,waterlogged=false] but failed at location BlockPos{x=719, y=42, z=-4838}
+[13Apr2025 17:46:03.393] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_1,waterlogged=false] but failed at location BlockPos{x=719, y=41, z=-4840}
+[13Apr2025 17:46:03.393] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_2,waterlogged=false] but failed at location BlockPos{x=719, y=42, z=-4839}
+[13Apr2025 17:46:03.393] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_3,waterlogged=false] but failed at location BlockPos{x=719, y=43, z=-4838}
+[13Apr2025 17:46:03.393] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_1,waterlogged=false] but failed at location BlockPos{x=719, y=41, z=-4838}
+[13Apr2025 17:46:28.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 990.500000, 70.500000, -4533.500000]
+[13Apr2025 17:46:35.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 1097.500000, 95.500000, -4375.500000]
+[13Apr2025 17:46:44.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 600.500000, 106.500000, -4184.500000]
+[13Apr2025 17:47:00.720] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/112698, l='ServerLevel[world]', x=524.22, y=127.19, z=-3998.90]
+[13Apr2025 17:47:00.720] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/112699, l='ServerLevel[world]', x=524.58, y=126.67, z=-3997.81]
+[13Apr2025 17:47:00.720] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/112701, l='ServerLevel[world]', x=525.78, y=126.47, z=-3999.89]
+[13Apr2025 17:47:00.721] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/112702, l='ServerLevel[world]', x=527.80, y=126.50, z=-3999.94]
+[13Apr2025 17:47:00.721] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/112703, l='ServerLevel[world]', x=529.28, y=126.38, z=-3999.80]
+[13Apr2025 17:48:32.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 618.500000, 76.500000, -3232.500000]
+[13Apr2025 17:48:37.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 17:48:52.760] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:48 |  hehe_sky: yo how is your progress going
+[13Apr2025 17:54:08.424] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:54 |  hehe_sky: rayen can u come home ?
+[13Apr2025 17:54:33.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 17:54:37.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 725.500000, 70.500000, -3317.500000]
+[13Apr2025 17:54:46.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 17:55:58.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 17:56:11.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 17:56:14.030] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:56 |  hehe_sky: why
+[13Apr2025 17:56:27.425] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:56 |  hehe_sky: oh w friends
+[13Apr2025 17:56:31.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 17:57:41.706] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 17:57 |  hehe_sky: ye
+[13Apr2025 17:57:53.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 18:01:00.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 18:01:48.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 18:02:30.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 618.500000, 76.500000, -3232.500000]
+[13Apr2025 18:07:46.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  Rayen45 has made the advancement [Hot Stuff]
+[13Apr2025 18:09:42.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 18:09:48.615] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:09 |  hehe_sky: how much
+[13Apr2025 18:09:52.656] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:09 |  hehe_sky: w
+[13Apr2025 18:09:58.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 18:10:06.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Spectator Mode]
+[13Apr2025 18:10:37.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Set own game mode to Survival Mode]
+[13Apr2025 18:10:55.924] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:10 |  hehe_sky: 25 ?
+[13Apr2025 18:11:05.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ hehe_sky: Teleported  hehe_sky to 618.500000, 76.500000, -3232.500000]
+[13Apr2025 18:11:18.941] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:11 |  hehe_sky: 24
+[13Apr2025 18:12:33.227] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:12 |  hehe_sky: come home i have diamonds for u
+[13Apr2025 18:12:47.735] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:12 |  hehe_sky: nigga
+[13Apr2025 18:13:03.175] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:13 |  hehe_sky: 4K ?
+[13Apr2025 18:13:04.914] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:13 |  hehe_sky: holy
+[13Apr2025 18:13:29.018] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:13 |  hehe_sky: get here when u can
+[13Apr2025 18:15:09.358] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:15 |  hehe_sky: do u have my house waypoint ?
+[13Apr2025 18:16:33.712] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:16 |  hehe_sky: im at y72
+[13Apr2025 18:16:38.435] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:16 |  hehe_sky: ye
+[13Apr2025 18:19:58.736] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:19 |  hehe_sky: ur still 4000 blocks away
+[13Apr2025 18:21:01.812] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:21 |  hehe_sky: avg mc mining experience
+[13Apr2025 18:21:40.263] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:21 |  hehe_sky: can u share where r u rn
+[13Apr2025 18:22:05.362] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:22 |  hehe_sky: like u did the last time
+[13Apr2025 18:22:08.585] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:22 |  hehe_sky: remember
+[13Apr2025 18:22:26.192] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:22 |  Rayen45: xaero-waypoint:me rn:M:-168:69:904:1:false:0:Internal-overworld-waypoints
+[13Apr2025 18:22:39.037] [Server thread/INFO] [com.jeremiahbl.bfcrmod.BetterForgeChat/]: [CHAT] 18:22 |  hehe_sky: DAYM
